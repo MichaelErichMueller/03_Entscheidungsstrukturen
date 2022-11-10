@@ -54,3 +54,19 @@ isJohnEqual = (ageJohn == ageMark);
 
 /************ IF - ELSE IF  ************/
 // mit alternativen Fällen (älter, jünger, gleich alt)
+
+if(isJohnOlder)
+{
+    console.log("John ist älter.");
+} 
+// 1. Alternative  .... n
+else if(isJohnEqual)
+{
+    console.log("John ist gleich alt."); 
+}
+// evtl. weitere Alternative(n) else if(){}
+// gemeinsame Alternative
+else 
+{
+    console.log("John ist jünger."); 
+}
